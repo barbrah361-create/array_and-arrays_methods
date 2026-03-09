@@ -474,3 +474,28 @@ console.log(calculator.power(2, 8));         // 256
  "key" in obj                  Check property in obj or prototype
  for...in                      Loop through enumerable keys
 ********************************************************************/
+
+/********************************************************************
+ JAVASCRIPT OBJECTS ASSIGNMENT - QUESTION 1
+********************************************************************/
+
+// Create an object representing a user with properties: name, age, and role
+let user1 = {
+  name: "John Doe",
+  age: 30,
+  role: "developer"
+};
+
+console.log("Initial user object:", user);
+
+// Update the role
+user.role = "senior developer";
+console.log("After updating role:", user);
+
+// Add a new property called active
+user.active = true;
+console.log("After adding active property:", user);
+
+// Remove the age property
+delete user.age;
+console.log("After removing age property:", user);
